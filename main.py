@@ -10,6 +10,7 @@ for question in question_data:
     question_bank.append(new_question)
 
 quiz_game = QuizBrain(question_bank)
+print("Welcome to the True or False quiz!")
 
 while quiz_game.still_has_questions():
     quiz_game.next_question()
